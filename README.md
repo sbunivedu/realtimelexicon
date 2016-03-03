@@ -15,8 +15,8 @@ This is my experiments directory.
 
 I'm working on making this work with ShareDB.
 
-## keyword-wrangler
-No changes to what we've already seen in Dave's. Still keyword-wrangler.
+## Keyword-Wrangler
+No changes to Dave's.
 
 ## Miscellaneous
 Still Miscellaneous.

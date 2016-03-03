@@ -1,22 +1,25 @@
-#This is Spencer's branch for RealTimeLexicon.#
-*Brief explanation:* Scotch is new, everything else is old.
+# This is Spencer's branch for RealTimeLexicon.
+_Brief explanation:_ Scotch is new, sharescotch is my experimenting everything else is old stuff.
 
-##Scotch##
+## Scotch
 This is my new work.
 
 It requires that you:
-
-* Install Redis first. There are a couple complicated commands.
-
-* Then to run: You have to run Redis first, then run your *node server.js*.
+- Install Redis first. There are a couple complicated commands.
+- Then to run: You have to run Redis first, then run your _node server.js_.
 
 (I recommend asking me in person because it isn't entirely straightforward)
 
-##keyword-wrangler##
+## ShareScotch
+This is my experiments directory.
+
+I'm working on making this work with ShareDB.
+
+## keyword-wrangler
 No changes to what we've already seen in Dave's. Still keyword-wrangler.
 
-##Miscellaneous##
+## Miscellaneous
 Still Miscellaneous.
 
-##Experiments##
+## Experiments
 Still experiments.

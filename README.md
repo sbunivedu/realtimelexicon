@@ -1,15 +1,16 @@
-##This is Dave's branch for the RealTimeLexicon GitHub.##
-The directory structure is as follows.
+##This is Spencer's branch for RealTimeLexicon.##
+Brief explanation:
 
-###keyword-wrangler directory###
-As things currently stand, the nodecraftsman tutorial (which I am HEAVILY modifying)
-is in the keyword-wrangler directory. That directory contains its own README
-with instructions specefic to it.
+##keyword-wrangler Directory##
+No changes to what we've already seen in Dave's.
 
-###miscellaneous directory###
-The miscellaneous directory contains past work from this repo.
+##Miscellaneous Directory##
+Still Miscellaneous.
 
-###experiments directory###
-The experiments directory is supposed to be a place to put isolated code segments
-for experimentation purposes. But maybe if something that works is stumbled on,
-just keep it in here.
+##experiments Directory##
+Experiments.
+
+##scotch Directory##
+This is my new work. It requires that you install Redis first.
+You have to run Redis first, then run *node server.js*.
+It's probably easier to ask me in person how to run this, rather than typing it. 

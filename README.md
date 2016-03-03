@@ -1,18 +1,22 @@
 #This is Spencer's branch for RealTimeLexicon.#
-Brief explanation: Scotch is new, everything else is old.
+*Brief explanation:* Scotch is new, everything else is old.
 
-##scotch Directory##
-This is my new work. It requires that you install Redis first.
+##Scotch##
+This is my new work.
 
-You have to run Redis first, then run *node server.js*.
+It requires that you:
 
-It's probably easier to ask me in person how to run this, rather than typing it.
+* Install Redis first. There are a couple complicated commands.
 
-##keyword-wrangler Directory##
+* Then to run: You have to run Redis first, then run your *node server.js*.
+
+(I recommend asking me in person because it isn't entirely straightforward)
+
+##keyword-wrangler##
 No changes to what we've already seen in Dave's. Still keyword-wrangler.
 
-##Miscellaneous Directory##
+##Miscellaneous##
 Still Miscellaneous.
 
-##experiments Directory##
+##Experiments##
 Still experiments.

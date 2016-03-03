@@ -10,7 +10,7 @@ module.exports = function() {
 
   var obj = {};
   var server;
-  const PORT = 8081;
+  var PORT = 8081;
   var expected = [
       {'_id': 1, 'name': 'Dave Gillie', 'category': 'male'},
       {'_id': 2, 'name': 'Kaitlyn Gillie', 'category': 'female'}

@@ -1,8 +1,6 @@
-var db = require('sharedb-mongo')('mongodb://localhost:27017/mydb');
+var dave = require('sharedb-mongo')('mongodb://localhost:27017/mydb');
 var sharedb = require("sharedb");
-var backend = sharedb({db: db});
-//var connection = backend.connect();
-
+var backend = sharedb({db: dave});
 
 
 exports.index = function(req, res) {
@@ -18,6 +16,7 @@ exports.submitop = function(req, res) {
 
   var connection = backend.connect();
   var doc = connection.get("temporary", doc_id);
+
   doc.subscribe(function(err) {
     if (err) {
       res.send(err);

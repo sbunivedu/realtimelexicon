@@ -3,8 +3,8 @@
 var MongoClient = require('mongodb').MongoClient;
 
 var MockAbstract = function() {};
-const DB_URL = 'mongodb://localhost:27017/mockAbstract';
-const COLL_NAME = 'temporary';
+var DB_URL = 'mongodb://localhost:27017/mockAbstract';
+var COLL_NAME = 'temporary';
 
 MockAbstract.prototype.create = function (obj, callback) {
 	MongoClient.connect(
@@ -102,10 +102,10 @@ MockAbstract.prototype.delete = function (callback) {
 				if (err) {
 					connection.close();
 					console.error(err);
-				} 
+				}
 				if (doc !== null) {
 					deleted.push(doc);
-				} else { 
+				} else {
 					collection.remove({}, function () {
 						connection.close();
 						callback(deleted);
@@ -113,7 +113,7 @@ MockAbstract.prototype.delete = function (callback) {
 				}
 			});
 
-			
+
 		});
 };
 

@@ -2,7 +2,7 @@
 
 var Server = require('./server.js').Server;
 
-const PORT = 8080;
+var PORT = 8080;
 var server = Server(PORT);
 
 server.listen(function() {

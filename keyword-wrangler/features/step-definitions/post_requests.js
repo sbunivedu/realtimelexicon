@@ -7,9 +7,9 @@ var Server = require('../../src/backend/server.js').Server;
 var mockAbstract = require('../../db-abstract/mockAbstract');
 
 module.exports = function () {
-	
-	const PORT = 8081;
-	const URL = 'http://localhost:'+PORT+'/api/keywords/';
+
+	var PORT = 8081;
+	var URL = 'http://localhost:'+PORT+'/api/keywords/';
 	var server;
 	var updateBodyID = '1';
 	var updateBody = {

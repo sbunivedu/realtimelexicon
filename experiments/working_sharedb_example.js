@@ -1,7 +1,9 @@
 var sharedb = require("sharedb");
 
 var db = require('sharedb-mongo')('mongodb://localhost:27017/mydb');
-var backend = sharedb({db: db});
+var backend = sharedb({
+  db: db
+});
 
 var connection = backend.connect();
 
@@ -12,16 +14,23 @@ var connection = backend.connect();
 */
 var doc = connection.get("temporary", "hello-world-document");
 
-doc.subscribe(function(error){
+doc.subscribe(function(error) {
   if (!doc.type) {
-    doc.create({x: "hello"});
+    doc.create({
+      x: "hello"
+    });
   }
 
   if (doc.type) {
     // `doc` ready, make ops
     setTimeout(function() { // timeout need for example (to delay after create)
-      doc.submitOp([{p: ["x", 5], si: " world"}]);
-      console.log("string insert is done.");
+      doc.submitOp( {
+        p: ['NEW', 'DR. LU'],
+        oi: {
+          'SOMETHING': 'BLUE'
+        }
+      } );
+      console.log("Operation was successful.");
     }, 1000);
   }
 });
